@@ -1,17 +1,70 @@
 {
-  "Wheats": {
-    "Name": "wheats",
-    "Weight": 25,
-    "PricePerKg": 53
-  },
-  "Rice": {
-    "Name": "Rice",
-    "Weight": 10,
-    "PricePerKg": 42
-  },
-  "Pulses": {
-    "Name": "Pulses",
-    "Weight": 3,
-    "PricePerKg": 200
-  }
+  "Wheats": [
+    {
+      "Name": "wheats1",
+      "Weight": 25,
+      "PricePerKg": 53
+    },
+    {
+      "Name": "wheats2",
+      "Weight": 35,
+      "PricePerKg": 50
+    },
+    {
+      "Name": "wheats3",
+      "Weight": 29,
+      "PricePerKg": 51
+    },
+    {
+      "Name": "wheats4",
+      "Weight": 100,
+      "PricePerKg": 49
+    }
+  ],
+
+  "Rice": [
+    {
+      "Name": "Rice1",
+      "Weight": 10,
+      "PricePerKg": 75
+    },
+    {
+      "Name": "Rice2",
+      "Weight": 13,
+      "PricePerKg": 73
+    },
+    {
+      "Name": "Rice3",
+      "Weight": 19,
+      "PricePerKg": 75
+    },
+    {
+      "Name": "Rice4",
+      "Weight": 21,
+      "PricePerKg": 71
+    }
+  ],
+  "Pulses": [
+    {
+      "Name": "Pulses1",
+      "Weight": 56,
+      "PricePerKg": 200
+    },
+    {
+      "Name": "Pulses2",
+      "Weight": 89,
+      "PricePerKg": 185
+    },
+    {
+      "Name": "Pulses3",
+      "Weight": 90,
+      "PricePerKg": 181
+    },
+    {
+      "Name": "Pulses4",
+      "Weight": 85,
+      "PricePerKg": 252
+    }
+
+  ]
 }

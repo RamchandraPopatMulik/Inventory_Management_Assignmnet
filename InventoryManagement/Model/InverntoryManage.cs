@@ -8,9 +8,9 @@ namespace InventoryManagement.Model
 {
     public class InverntoryManage
     {
-        public CommonProperties? Rice { get; set; }
-        public CommonProperties? Pulses { get; set; } 
-        public CommonProperties? Wheats { get; set; }
+        public List<CommonProperties>? Rice { get; set; }
+        public List <CommonProperties>? Pulses { get; set; } 
+        public List <CommonProperties>? Wheats { get; set; }
 
     }
     public class CommonProperties
