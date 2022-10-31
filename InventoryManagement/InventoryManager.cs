@@ -11,11 +11,11 @@ namespace InventoryManagement
 {
     internal class InventoryManager
     {
-        public string filepath = @"E:\Basic Core Program\InventoryManagement\InventoryManagement\Model\InventoryData.json";
+        public string filepath = @"E:\Basic Core Program\InventoryManagement\Inventory_Management_Assignmnet\InventoryManagement\Model\InventoryData.json";
 
         public void CalculateInventoryValue()
         {
-           var jsonData = File.ReadAllText(filepath);
+            var jsonData = File.ReadAllText(filepath);
             var InventoryData = JsonConvert.DeserializeObject<InverntoryManage>(jsonData);
 
             Console.WriteLine(InventoryData.Rice.Name +"\n"+InventoryData.Rice.Weight+"\n"+InventoryData.Rice.PricePerKg+"\n"+ InventoryData.Pulses.Name + "\n" + InventoryData.Pulses.Weight + "\n" + InventoryData.Pulses.PricePerKg + "\n"+ InventoryData.Wheats.Name + "\n" + InventoryData.Wheats.Weight + "\n" + InventoryData.Wheats.PricePerKg + "\n");

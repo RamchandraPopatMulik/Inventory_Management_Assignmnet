@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Inventory_Management");
+            Console.WriteLine(" Wel-Come to Inventory_Management");
             InventoryManager inventoryManager = new InventoryManager();
             inventoryManager.CalculateInventoryValue();
         }
