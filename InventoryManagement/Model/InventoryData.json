@@ -1,70 +1,45 @@
 {
-  "Wheats": [
+  "Stocks": [
     {
-      "Name": "wheats1",
-      "Weight": 25,
-      "PricePerKg": 53
+      "StockName": "Vestas",
+      "NumOfShares": 5,
+      "SharePrice": 53
     },
     {
-      "Name": "wheats2",
-      "Weight": 35,
-      "PricePerKg": 50
+      "StockName": "Flash",
+      "NumOfShares": 15,
+      "SharePrice": 20
     },
     {
-      "Name": "wheats3",
-      "Weight": 29,
-      "PricePerKg": 51
+      "StockName": "Suzloan",
+      "NumOfShares": 25,
+      "SharePrice": 47
     },
     {
-      "Name": "wheats4",
-      "Weight": 100,
-      "PricePerKg": 49
+      "StockName": "Cognizant",
+      "NumOfShares": 9,
+      "SharePrice": 72
+    },
+    {
+      "StockName": "TCS",
+      "NumOfShares": 23,
+      "SharePrice": 440
+    },
+    {
+      "StockName": "Wipro",
+      "NumOfShares": 65,
+      "SharePrice": 530
+    },
+    {
+      "StockName": "JPMorgan",
+      "NumOfShares": 51,
+      "SharePrice": 42
+    },
+    {
+      "StockName": "SKF",
+      "NumOfShares": 53,
+      "SharePrice": 210
     }
-  ],
-
-  "Rice": [
-    {
-      "Name": "Rice1",
-      "Weight": 10,
-      "PricePerKg": 75
-    },
-    {
-      "Name": "Rice2",
-      "Weight": 13,
-      "PricePerKg": 73
-    },
-    {
-      "Name": "Rice3",
-      "Weight": 19,
-      "PricePerKg": 75
-    },
-    {
-      "Name": "Rice4",
-      "Weight": 21,
-      "PricePerKg": 71
-    }
-  ],
-  "Pulses": [
-    {
-      "Name": "Pulses1",
-      "Weight": 56,
-      "PricePerKg": 200
-    },
-    {
-      "Name": "Pulses2",
-      "Weight": 89,
-      "PricePerKg": 185
-    },
-    {
-      "Name": "Pulses3",
-      "Weight": 90,
-      "PricePerKg": 181
-    },
-    {
-      "Name": "Pulses4",
-      "Weight": 85,
-      "PricePerKg": 252
-    }
-
   ]
 }
+ 

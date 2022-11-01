@@ -8,15 +8,13 @@ namespace InventoryManagement.Model
 {
     public class InverntoryManage
     {
-        public List<CommonProperties>? Rice { get; set; }
-        public List <CommonProperties>? Pulses { get; set; } 
-        public List <CommonProperties>? Wheats { get; set; }
+        public List<CommonProperties>? Stocks { get; set; }
 
     }
     public class CommonProperties
     {
-        public string? Name { get; set; }
-        public int Weight { get; set; }
-        public int PricePerKg { get; set; }
+        public string? StockName { get; set; }
+        public int  NumOfShares { get; set; }
+        public int SharePrice { get; set; }
     }
 }
