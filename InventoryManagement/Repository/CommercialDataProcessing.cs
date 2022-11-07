@@ -84,15 +84,19 @@ namespace InventoryManagement.Repository
                         totalBalance = item.CustomerInfo.CustomerAccountBalance;
                         if (stockName == marketCompanyName)
                         {
-
+                            bool flag = false;
                             foreach (ShareDetails item2 in item.ShareDetails)
                             {
                                 if (item2.CompanyName == stockName)
                                 {
-
+                                    flag = true;
                                     item2.NoOfShares += numOfShares;
                                     break;
                                 }
+                            }
+                            if (flag != true)
+                            {
+                                item.ShareDetails.Add(new ShareDetails() { CompanyName = stockName, NoOfShares = numOfShares, PricePerShare = marketSharePrice });
                             }
 
                             Console.WriteLine($"\nTransaction Completed. Bought.");
