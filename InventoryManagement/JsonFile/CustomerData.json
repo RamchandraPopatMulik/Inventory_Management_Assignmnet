@@ -2,11 +2,11 @@
  [
     {
       "CustomerInfo": {
-        "CustomerName": "Piyush",
-        "CustomerPhoneNo": 7415190931,
-        "CustomerEmail": "piyush@gmail.com",
-        "CustomerAddress": "Nagpur",
-        "CustomerAccountBalance": 100000
+        "CustomerName": "Ramchandra",
+        "CustomerPhoneNo": 9604340676,
+        "CustomerEmail": "mulikram2016@gmail.com",
+        "CustomerAddress": "Sangli",
+        "CustomerAccountBalance": 50000
       },
       "ShareDetails": [
         {
@@ -23,11 +23,11 @@
     },
     {
       "CustomerInfo": {
-        "CustomerName": "Ayush",
-        "CustomerPhoneNo": 9009001234,
-        "CustomerEmail": "ayush@gmail.com",
-        "CustomerAddress": "Mumbai",
-        "CustomerAccountBalance": 50000
+        "CustomerName": "Mangesh",
+        "CustomerPhoneNo": 9005601234,
+        "CustomerEmail": "mangesh@gmail.com",
+        "CustomerAddress": "Kolhapur",
+        "CustomerAccountBalance": 55000
       },
       "ShareDetails": [
         {
