@@ -144,6 +144,10 @@ namespace InventoryManagement.Repository
                             {
                                 item2.NoOfShares -= numOfShares;
                                 marketSharePrice = item2.PricePerShare;
+                                if (item2.NoOfShares == 0)
+                                {
+                                    item.ShareDetails.Remove(item2);
+                                }
 
                             }
                             else
