@@ -185,7 +185,8 @@ namespace InventoryManagement.Repository
                 }
             }
             saveCompany();
-            Console.WriteLine($"\nTransaction Completed. Sold.");
+            Console.WriteLine($"\nTransaction Completed. Sold {numOfShares} shares of {stockName} for a price of {valueOfSharesSold} at {DateTime.Now}.");
+            Console.WriteLine($"Account Balance: {totalBalance}");
 
         }
 
