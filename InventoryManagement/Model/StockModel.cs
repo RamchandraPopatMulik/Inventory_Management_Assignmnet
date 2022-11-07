@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace InventoryManagement.Model
 {
-    public class InverntoryManage
+    public class StockModel
     {
-        public List<CommonProperties>? Stocks { get; set; }
-
+        public List<StockProp> Stock { get; set; }
     }
-    public class CommonProperties
+    public class StockProp
     {
         public string? StockName { get; set; }
-        public int  NumOfShares { get; set; }
+        public int NumOfShares { get; set; }
         public int SharePrice { get; set; }
+
     }
 }

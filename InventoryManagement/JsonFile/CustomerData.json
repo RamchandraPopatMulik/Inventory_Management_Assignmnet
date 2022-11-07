@@ -1,0 +1,46 @@
+{
+ [
+    {
+      "CustomerInfo": {
+        "CustomerName": "Piyush",
+        "CustomerPhoneNo": 7415190931,
+        "CustomerEmail": "piyush@gmail.com",
+        "CustomerAddress": "Nagpur",
+        "CustomerAccountBalance": 100000
+      },
+      "ShareDetails": [
+        {
+          "CompanyName": "Tata Motors",
+          "NoOfShares": 5,
+          "PricePerShare": 1700
+        },
+        {
+          "CompanyName": "TCS",
+          "NoOfShares": 5,
+          "PricePerShare": 1100
+        }
+      ]
+    },
+    {
+      "CustomerInfo": {
+        "CustomerName": "Ayush",
+        "CustomerPhoneNo": 9009001234,
+        "CustomerEmail": "ayush@gmail.com",
+        "CustomerAddress": "Mumbai",
+        "CustomerAccountBalance": 50000
+      },
+      "ShareDetails": [
+        {
+          "CompanyName": "SBI",
+          "NoOfShares": 5,
+          "PricePerShare": 500
+        },
+        {
+          "CompanyName": "Tata Motors",
+          "NoOfShares": 5,
+          "PricePerShare": 1700
+        }
+      ]
+    }
+  ] 
+}
